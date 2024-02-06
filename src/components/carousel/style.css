@@ -1,0 +1,20 @@
+.size {
+    height: 300px;
+    width: 300px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.carousel-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  

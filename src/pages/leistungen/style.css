@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel {
+
+    /* border: 5px solid red; */
+    border-radius: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.pics {
+    display: flex;
+    justify-content:space-around;
+    padding: 50px;
+}
+
+.title-list {
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 560px) {
+    .pic1 {
+        display: none;
+    }
+    
+}
+
