@@ -11,28 +11,19 @@ const Main = () => {
   return (
     <>
       <main className="flex flex-col items-center m-0 p-0">
-        <div className="w-screen mt-10 h-56 sm:h-64 xl:h-80 2xl:h-96">
-          <Carousel>
+        <div className="w-screen mt-10 h-56 sm:h-96 sm:w-8/12 xl:h-96 2xl:h-96">
+          <Carousel className="carousel">
             <img
-              src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
+              className="img-xy"
+              src="../src/assets/mb-auto-seite.jpg"
               alt="..."
             />
             <img
-              src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
+              className="img-xy"
+              src="../src/assets/background-img.jpg"
               alt="..."
             />
-            <img
-              src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-              alt="..."
-            />
-            <img
-              src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
-              alt="..."
-            />
-            <img
-              src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
-              alt="..."
-            />
+            <img className="img-xy" src="../src/assets/logo.png" alt="..." />
           </Carousel>
         </div>
 

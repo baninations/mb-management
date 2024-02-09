@@ -30,9 +30,9 @@ export const card = [
       "Unsere Mitarbeiter holen Ihre Mülltonnen vom Standplatz, stellen sie an den vorgeschriebenen Ort zur Abholung bereit und bringen die Behälter nach der Leerung wieder zurück zum Standplatz.",
   },
   {
-    title: "Müllboxen- und Müllraumreinigung",
+    title: "Müllraumreinigung",
     description:
-      "Auf Wunsch führen wir Kehrleistungen sowie Hochdruck- oder Nassreinigungen auf den Abfallbehälterstandflächen oder in den Müllboxen bzw. -räumen durch.",
+      "Auf Wunsch führen wir Kehrleistungen auf den Abfallbehälterstandflächen.",
   },
   {
     title: "Sperrmülldienst",

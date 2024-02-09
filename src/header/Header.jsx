@@ -4,9 +4,9 @@ import "./style.css";
 const Header = () => {
   return (
     <header className="flex flex-col sm:flex sm:flex-row">
-      <div className="logo relative z-10">
+      <div className="logo flex flex-col justify-center items-center relative z-10">
         <img
-          className="mt-20 sm:mt-0 rounded-2xl w-50 h-20 sm:w-42 sm:h-16 lg:w-64 lg:h-24 "
+          className="mt-20 w-4/6 h-7/12 sm:mt-0 rounded-2xl sm:w-42 sm:h-16 lg:w-64 lg:h-24 "
           src="../src/assets/logo.png"
           alt="Logo"
         />
