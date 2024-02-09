@@ -1,60 +1,47 @@
 export const card = [
   {
-    title: "Erfassung / Analyse der Bedarfssituation",
+    title: "Analyse und Erfassung des Bedarfs",
     description:
-      "Mit Ihrer Unterstützung erfassen wir die abfallrelevanten Daten und Kosten und entwickeln ein mögliches Optimierungskonzept.",
+      "In Zusammenarbeit mit Ihrer Unterstützung erfassen wir relevante Daten und Kosten im Bereich Abfall. Anschließend entwickeln wir ein potenzielles Optimierungskonzept.",
   },
   {
-    title: "Betriebskostenoptimierung",
+    title: "Betriebskostenverbesserung",
     description:
-      "Durch Anpassung und/ oder Veränderung von Entsorgungszyklen sowie Behältergrößen optimieren wir die Standplatzsituation und Ihre Betriebsnebenkosten.",
+      "Durch die Anpassung oder Veränderung von Entsorgungszyklen und Behältergrößen verbessern wir nicht nur die Standplatzsituation, sondern reduzieren auch Ihre Betriebsnebenkosten.",
   },
   {
     title: "Abfallberatung",
     description:
-      "Wir beraten Sie zu allen abfallrelevanten Themen und verschaffen Ihnen einen Überblick über unsere Dienstleistungen. Erfassung/ Analyse der Bedarfssituation: Gemeinsam mit Ihnen finden wir anhand der relevanten Daten und aktuellen Kosten mögliche Optimierungslösungen.",
+      "Unsere Beratung deckt sämtliche abfallrelevanten Themen ab und gibt Ihnen einen umfassenden Überblick über unsere Dienstleistungen. Die gemeinsame Erfassung und Analyse der Bedarfssituation ermöglicht es uns, mögliche Optimierungslösungen zu identifizieren.",
   },
   {
-    title: "Müllstandplatzbetreuung",
+    title: "Müllstandplatzüberwachung",
     description:
-      "Ihr Müllstandplatz wird regelmäßig kontrolliert und auf Leerungsausfälle, defekte Behälter oder Verunreinigungen überprüft. Je nach Bedarf kann die Betreuung in der Anfahrtshäufigkeit variieren.",
+      "Regelmäßige Kontrollen an Ihrem Müllstandplatz decken Leerungsausfälle, defekte Behälter und Verunreinigungen auf. Die Betreuung kann je nach Bedarf in der Anfahrtshäufigkeit variieren.",
   },
   {
     title: "Nachsortierung",
     description:
-      "Ihr Müllstandplatz wird regelmäßig kontrolliert und die jeweiligen Abfallfraktionen auf augenscheinliche Fehleinwürfe überprüft. Diese werden von unseren Mitarbeitern aus- und in die richtigen Sammelbehälter umsortiert.",
+      "Eine kontinuierliche Überwachung am Müllstandplatz identifiziert Abfallfraktionen mit offensichtlichen Fehleinwürfen. Unsere Mitarbeiter sortieren diese fachgerecht in die entsprechenden Sammelbehälter um.",
   },
   {
-    title: "Tonnenbereitstellung",
+    title: "Mülltonnenbereitstellung",
     description:
-      "Unsere Mitarbeiter holen Ihre Mülltonnen vom Standplatz und stellen diese an den vorgeschriebenen Ort zur Abholung bereit. Nach erfolgter Leerung werden die Behälter wieder auf den Standplatz verbracht.",
+      "Unsere Mitarbeiter holen Ihre Mülltonnen vom Standplatz, stellen sie an den vorgeschriebenen Ort zur Abholung bereit und bringen die Behälter nach der Leerung wieder zurück zum Standplatz.",
   },
   {
-    title: "Müllboxen- / Müllraumreinigung",
+    title: "Müllboxen- und Müllraumreinigung",
     description:
-      "Auf Wunsch führen wir Kehrleistungen sowie Hochdruck- oder Nassreinigungen auf den Abfallbehälterstandflächen oder in den Müllboxen bzw. - räumen durch.",
+      "Auf Wunsch führen wir Kehrleistungen sowie Hochdruck- oder Nassreinigungen auf den Abfallbehälterstandflächen oder in den Müllboxen bzw. -räumen durch.",
   },
   {
-    title: "Sperrmüllservice",
+    title: "Sperrmülldienst",
     description:
-      "Um größere Abfälle innerhalb von Deponien und rund um Deponiebereiche zu sammeln, können wir sie an einem geeigneten Ort sammeln, wo eine ordnungsgemäße Abholung erfolgen kann.",
+      "Zum Sammeln größerer Abfälle innerhalb von Deponien und rund um Deponiebereiche können wir diese an einem geeigneten Ort sammeln, um eine ordnungsgemäße Abholung zu gewährleisten.",
   },
   {
-    title: "Kommunikation",
+    title: "Kommunikationsdienstleistungen",
     description:
-      "Auf Wunsch übernehmen wir für Sie die gesamte Abwicklung mit Behörden, Eigenbetrieben u.ä. Stellen.",
+      "Auf Wunsch übernehmen wir die vollständige Abwicklung mit Behörden, Eigenbetrieben und ähnlichen Institutionen für Sie.",
   },
 ];
-
-const itemList = [
-  "Betriebskostenoptimierung",
-  "Abfallberatung",
-  "Müllstandplatzbetreuung",
-  "Nachsortierung",
-  "Tonnenbereitstellung",
-  "Müllboxen- / Müllraumreinigung",
-  "Sperrmüllservice",
-  "Kommunikation und Bereitschaft",
-];
-
-export default itemList;

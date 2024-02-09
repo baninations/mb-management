@@ -3,7 +3,7 @@ import ContactForm from "../../components/contact-form/ContactForm";
 
 const Kontakt = () => {
   return (
-    <div className="m-32 flex justify-center">
+    <div className="sm:mt-10 flex justify-center mb-10">
       <div className="contactUsStyle">
         <h1 className="text-2xl mb-6">Kontaktieren Sie uns</h1>
         <p>
@@ -13,9 +13,11 @@ const Kontakt = () => {
 
         <div className="mb-10">
           <h1 className="text-2xl mt-10 mb-6">Kontakt Information</h1>
-          <p>Email: info@mb-managment.de</p>
-          <p>Handy: 01725319702</p>
-          <p>Address: Nienburg</p>
+          <p>Email: info@mb-abfallmanagement.de</p>
+          <p>Handy: 01721234567</p>
+          <p>
+            Address: MB Abfallmanagement, Musterstraße 123, 12345 Musterstadt
+          </p>
         </div>
 
         <div>

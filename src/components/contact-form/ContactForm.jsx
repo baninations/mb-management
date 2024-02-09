@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./styles.css";
+import { Alert } from "flowbite-react";
 
 const ContactForm = () => {
   const form = useRef();
@@ -15,9 +16,14 @@ const ContactForm = () => {
       .then(
         () => {
           console.log("SUCCESS!");
+          form.current.reset();
+          alert("Nachricht erfolgreich gesendet!");
         },
         (error) => {
           console.log("FAILED...", error.text);
+          alert(
+            "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+          );
         }
       );
   };

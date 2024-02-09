@@ -1,14 +1,16 @@
 import "./style.css";
 import { Carousel } from "flowbite-react";
 import Contact from "../../components/contact/Contact";
-import itemList from "../../data";
 import List from "../../components/list/List";
 import { FaLongArrowAltDown } from "react-icons/fa";
+import { card } from "../../data";
+import { Link, NavLink } from "react-router-dom";
+import Experience from "../../components/experience/Experience";
 
 const Main = () => {
   return (
     <>
-      <main className="flex flex-col items-center">
+      <main className="flex flex-col items-center m-0 p-0">
         <div className="w-screen mt-10 h-56 sm:h-64 xl:h-80 2xl:h-96">
           <Carousel>
             <img
@@ -35,13 +37,16 @@ const Main = () => {
         </div>
 
         <div className="md:w-4/6 sm:w-100wv  flex flex-col justify-center items-center">
-          <h1 className="mt-10 text-4xl">MB Managment</h1>
+          <h1 className="mt-10 text-4xl">MB Abfallmanagement</h1>
           <p className=" m-10">
             Herzlich willkommen bei Ihrem verlässlichen Partner für sämtliche
             Anliegen im Bereich der Abfallwirtschaft. Unser Ziel ist es, Ihnen
             zu helfen, Geld zu sparen, und gleichzeitig erstklassigen Service
             anzubieten.
           </p>
+
+          <Experience />
+
           <h1 className="m-10 text-2xl">Kontaktieren sie uns!</h1>
           {/* <p className="mb-10">Arrow downwards</p> */}
           <div>
@@ -51,15 +56,15 @@ const Main = () => {
             </div>
             <div className="w-screen flex justify-around">
               <Contact
-                message="01725319702"
+                message="01721234567"
                 type="tel:"
-                contactType="01725319702"
+                contactType="01721234567"
               />
 
               <Contact
-                message="info@mb-managment.de"
+                message="info@mb-abfallmanagement.de"
                 type="mailto:"
-                contactType="info@mb-managment.de"
+                contactType="info@mb-abfallmanagement.de"
               />
             </div>
           </div>
@@ -68,8 +73,10 @@ const Main = () => {
           </p>
         </div>
         <ul className="mt-10">
-          {itemList.map((item) => (
-            <List key={item} items={item} />
+          {card.map((item, index) => (
+            <NavLink key={index} to={`/leistungen#${index}`}>
+              <List key={index} items={item.title} customKey={index} />
+            </NavLink>
           ))}
         </ul>
       </main>

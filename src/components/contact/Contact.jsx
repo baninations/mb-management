@@ -1,5 +1,4 @@
-import "./styles.css";
-import { Button } from "flowbite-react";
+import "./styless.css";
 
 const Contact = (props) => {
   const handleCallClick = () => {
@@ -7,25 +6,12 @@ const Contact = (props) => {
   };
   return (
     <button
-      className="border-2 text-center h-28 w-72 bg-green-500 rounded-3xl text-white"
+      className="border-2 text-center h-28 w-72 bg-green-500 rounded-3xl email-button"
       onClick={handleCallClick}
     >
       {props.message}
     </button>
-    // <Button className="" onClick={handleCallClick} pill>
-    //   {props.message}
-    // </Button>
   );
 };
 
 export default Contact;
-
-//////////////////////////////////////
-
-// return (
-//     <>
-//       <div onClick={handleCallClick} className="email-button">
-//         <p>{props.message}</p>
-//       </div>
-//     </>
-//   );

@@ -1,0 +1,39 @@
+.email-button {
+  font-size: medium;
+  color: white;
+  height: 80px;
+  width: 240px;
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #D4F8D4;
+  background-color: lightgreen;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.email-button:hover {
+  font-size:large;
+  background-color: #3f9142;
+}
+
+
+.submit-button {
+color: black;
+height: 50px;
+width: 200px;
+display: inline-block;
+padding: 10px;
+border: 1px solid grey;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.submit-button:hover {
+  color: white;
+background-color: #3f9142;
+cursor: pointer;
+  
+}
+

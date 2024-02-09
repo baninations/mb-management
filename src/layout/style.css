@@ -1,11 +1,13 @@
 body{
-    /* background-image: url("../assets/background-img.jpg");
+    /* background-image: url("../assets/background-img.jpg"); */
     background-repeat: no-repeat;
-    background-size: 100% 100%; */
+    /* background-size: 100% 100%; */
+    margin: 0;
+    padding: 0;
    
 }
 
-.app-container {
+.app-container { 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

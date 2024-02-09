@@ -31,6 +31,9 @@ main {
     .pic1 {
         display: none;
     }
+
+    .pics {
+        padding: 10px;
+    }
     
 }
-
