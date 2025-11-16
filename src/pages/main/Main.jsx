@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <>
       <main className="flex flex-col items-center m-0 p-0">
-        <div className="w-screen mt-10 h-56 sm:h-96 sm:w-8/12 xl:h-96 2xl:h-96">
+        {/* <div className="w-screen mt-10 h-56 sm:h-96 sm:w-8/12 xl:h-96 2xl:h-96">
           <Carousel className="carousel">
             <img
               className="img-xy"
@@ -25,10 +25,10 @@ const Main = () => {
             />
             <img className="img-xy" src="../src/assets/logo.png" alt="..." />
           </Carousel>
-        </div>
+        </div> */}
 
         <div className="md:w-4/6 sm:w-100wv  flex flex-col justify-center items-center">
-          <h1 className="mt-10 text-4xl">MB Abfallmanagement</h1>
+          <h1 className="mt-10 text-4xl">GrünReinheit Abfallmanagement</h1>
           <p className=" m-10">
             Herzlich willkommen bei Ihrem verlässlichen Partner für sämtliche
             Anliegen im Bereich der Abfallwirtschaft. Unser Ziel ist es, Ihnen
@@ -53,9 +53,9 @@ const Main = () => {
               />
 
               <Contact
-                message="info@mb-abfallmanagement.de"
+                message="info@grünreinheit.de"
                 type="mailto:"
-                contactType="info@mb-abfallmanagement.de"
+                contactType="info@grünreinheit.de"
               />
             </div>
           </div>
@@ -76,3 +76,8 @@ const Main = () => {
 };
 
 export default Main;
+
+{
+  /* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4155795791619320"
+crossorigin="anonymous"></script> */
+}

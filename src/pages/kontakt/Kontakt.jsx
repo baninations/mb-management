@@ -13,10 +13,11 @@ const Kontakt = () => {
 
         <div className="mb-10">
           <h1 className="text-2xl mt-10 mb-6">Kontakt Information</h1>
-          <p>Email: info@mb-abfallmanagement.de</p>
+          <p>Email: info@grünreinheit.de</p>
           <p>Handy: 01721234567</p>
           <p>
-            Address: MB Abfallmanagement, Musterstraße 123, 12345 Musterstadt
+            Address: GrünReinheit Abfallmanagement, Musterstraße 123, 12345
+            Musterstadt
           </p>
         </div>
 
